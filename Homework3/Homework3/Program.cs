@@ -10,12 +10,12 @@ namespace Homework3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Achar sozu daxil edin:");
+            Console.WriteLine("Achar sozu daxil edin: ");
             string key = Console.ReadLine();
 
             DocumentProgram docProgram;
 
-            switch (key)
+            switch(key)
             {
                 case "basic":
                     docProgram = new DocumentProgram();
